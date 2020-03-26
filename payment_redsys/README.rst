@@ -83,7 +83,7 @@ módulo de administración de Redsys, donde la opción “Parámetros en las
 URLs” debe tener el valor “SI”.
 
 En caso de que exista más de una base de datos en la instalación, cuando la
-pasarela de pago envía el formulario a "/payment/redsys/return" odoo no sabe
+pasarela de pago envía el formulario a "/payment/redsys/result" odoo no sabe
 con que base de datos procesar esta información, por lo que hay que establecer
 los parametros **dbfilter** y **dbname** en el archivo de configuración.
 
